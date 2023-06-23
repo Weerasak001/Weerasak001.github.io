@@ -6,7 +6,7 @@ body{
 /*content style*/
 section{ 
     margin: 0 auto;
-    width: 600px;
+    width: 50%;
     background-color: #f4f4f4;
     border: red solid 5px;
     border-radius: 30px;
