@@ -8,7 +8,7 @@ section{
     margin: 0 auto;
     width: 600px;
     background-color: #f4f4f4;
-    border: black solid 5px;
+    border: red solid 5px;
     border-radius: 30px;
 }
 /*h1 style for all header*/
