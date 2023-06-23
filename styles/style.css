@@ -1,0 +1,45 @@
+/*body style*/
+body{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: purple;
+}
+/*content style*/
+section{ 
+    margin: 0 auto;
+    width: 600px;
+    background-color: #f4f4f4;
+    border: black solid 5px;
+    border-radius: 30px;
+}
+/*h1 style for all header*/
+h1{
+    font-size:40px;
+    color: red;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: black solid 5px;
+}
+/*images style*/
+img{
+    display: block;
+    /* display: flex; */
+    margin: 0 auto;
+    max-width: 30%;
+    border-radius: 30px;
+    border-style: solid;
+}
+/*style paragraph in div*/
+div p{
+    color: blue;
+    font-weight: bold;
+}
+ul{
+    list-style: disc;
+}
+li{
+    color: green;
+}
+/*style for all paragraph*/
+p{
+    margin: 20px;
+}
