@@ -2,13 +2,15 @@
 body{ 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: purple;
+    padding: 0;
+    margin: 0;
 }
 /*content style*/
 section{ 
     margin: 0 auto;
     width: 50%;
     background-color: #f4f4f4;
-    border: red solid 5px;
+    border: rgb(0, 0, 0) solid 5px;
     border-radius: 30px;
 }
 /*h1 style for all header*/
@@ -19,25 +21,38 @@ h1{
     padding-bottom: 20px;
     border-bottom: black solid 5px;
 }
+/*style figure section*/
+figure{
+    text-align: center;
+}
+figure img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*images style*/
 img{
+    
     display: block;
     /* display: flex; */
     margin: 0 auto;
-    max-width: 30%;
+    max-width: 50%;
     border-radius: 30px;
     border-style: solid;
 }
 /*style paragraph in div*/
-div p{
+#heading{
     color: blue;
     font-weight: bold;
 }
 ul{
     list-style: disc;
+    margin: 10px;
 }
 li{
-    color: green;
+    margin: 10px;
+}
+.popular{
+    border: red dotted 4px;
 }
 /*style for all paragraph*/
 p{
